@@ -28,3 +28,23 @@ img {
   top: 100px;
   left: 100px;
 }
+
+/* summary */
+.summary {
+  height: 400px;
+  background-color: antiquewhite;
+
+  position: relative;
+}
+.summary p {
+  background-color: lightpink;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  height: 140px;
+
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translateY(-50%) translateX(-50%);
+}
