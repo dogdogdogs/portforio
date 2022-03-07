@@ -2,6 +2,9 @@
 body {
   margin: 0;
 }
+li {
+  list-style: none;
+}
 
 /* header */
 header {
@@ -49,8 +52,48 @@ img {
   transform: translateY(-50%) translateX(-50%);
 }
 
-
-
+/* タブ全体 */
+.wrap {
+  padding-top: 3rem;
+  margin: 0 auto;
+  width: 90%;
+}
+/* タブメニュー */
+.tab-collection {
+  display: flex;
+  margin-bottom: 0;
+}
+.tab {
+  margin: 0;
+  cursor: pointer;
+}
+.tab + .tab {
+  padding-left: 20px;
+}
+/* タブの中身 */
+.menu-wrap {
+  height: 400px;
+}
+.menu-container {
+  position: absolute;
+  width: 90%;
+}
+.menu-box {
+  display: flex;
+  display: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.menu {
+  padding: 2em 1em;
+  background-color: #eee;
+  transition: all .2s;
+  cursor: pointer;
+}
+.active {
+  display: block;
+  background: tomato;
+}
 
 /* footer */
 footer {
