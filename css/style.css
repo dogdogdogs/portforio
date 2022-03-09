@@ -114,13 +114,13 @@ h1 {
 }
 /* タグ名：愚痴　Line風 */
 .line-bc {
-  padding: 20px 10px;
+  height: 80%;
+  padding: 32px 24px;
   max-width: 450px;
-  margin: 15px auto;
-  /* text-align: right; */
-  /* justify-content: space-between; */
+  margin: 32px auto;
   font-size: 14px;
-  background: #7da4cd;  
+  background: #7da4cd;
+  overflow: scroll;
 }
 .says {
   display: block;
@@ -149,7 +149,6 @@ h1 {
 }
 .mycomment {
   margin: 10px 0;
-  /* justify-content: flex-end; */
 }
 .mycomment p {
   display: block;
